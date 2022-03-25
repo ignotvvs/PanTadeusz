@@ -1,0 +1,103 @@
+header {
+    background-color: #60676d ;
+    border-bottom: 4px solid rgb(222, 216, 216);
+    color: rgb(246, 213, 213);
+}
+
+a div {
+    background-color: rgba(116, 120, 123, 0.8);
+}
+
+.k1 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/42/Pan_Tadeusz_-_Ksiega_1_1.JPG);
+    background-position: center 30%;
+    
+}
+
+.k2 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Pan_Tadeusz_-_Ksiega_2_1.JPG);
+    background-position: center 20%;
+   
+}
+
+.k3 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/26/Pan_Tadeusz_-_Ksiega_3_1.JPG);
+    background-position: center center;
+   
+}
+
+.k4 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/c/c6/Pan_Tadeusz_-_Ksiega_4_2.JPG);
+    background-position: center center;
+   
+}
+
+.k5 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4d/Pan_Tadeusz_-_Ksiega_5_3.JPG);
+    background-position: center 20%;
+   
+}
+
+.k6 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/35/Pan_Tadeusz_-_Ksiega_6_1.JPG);
+    background-position: center 10%;
+   
+}
+
+.k7 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Pan_Tadeusz_-_Ksiega_7_2.JPG);
+    background-position: center center;
+   
+}
+
+.k8 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/61/Pan_Tadeusz_-_Ksiega_8_1.JPG);
+    background-position: center center;
+   
+}
+
+.k9 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/9a/Pan_Tadeusz_-_Ksiega_9_1.JPG);
+    background-position: center center;
+   
+}
+
+.k10 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Pan_Tadeusz_-_Ksiega_10_1.JPG);
+    background-position: center 20%;
+   
+}
+
+.k11 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b7/Pan_Tadeusz_-_Ksiega_11_2.JPG);
+    background-position: center 20%;
+   
+}
+
+.k12 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/25/Pan_Tadeusz_-_Ksiega_12_3.JPG);
+    background-position: center center;
+   
+}
+
+.main a {
+    transition: padding 0.5s ;
+}
+
+.main a:hover {
+    color: rgb(255, 0, 0) !important;
+    padding: 30% 0 !important;
+}
+
+.act {
+    padding: 30% !important;
+}
+
+
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }

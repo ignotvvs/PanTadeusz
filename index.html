@@ -1,27 +1,102 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>Pan Tadeusz</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		<link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	</head>
-	<body>
-		<h1>Pan Tadeusz czyli ostatni 
-		zajazd na Litwie: historia szlachecka z roku 1811 i 1812 we dwunastu
-		księgach wierszem.</h1>
-		<p>Spis treści</p>
-		<ul>
-			<li><a href = "./k1.html">Księga 1</a></li>
-			<li><a href = "./k2.html">Księga 2</a></li>
-			<li><a href = "./k3.html">Księga 3</a></li>
-			<li><a href = "./k4.html">Księga 4</a></li>
-			<li><a href = "./k5.html">Księga 5</a></li>
-			<li><a href = "./k6.html">Księga 6</a></li>
-			<li><a href = "./k7.html">Księga 7</a></li>
-			<li><a href = "./k8.html">Księga 8</a></li>
-			<li><a href = "./k9.html">Księga 9</a></li>
-			<li><a href = "./k10.html">Księga 10</a></li>
-			<li><a href = "./k11.html">Księga 11</a></li>
-			<li><a href = "./k12.html">Księga 12</a></li>
-		</ul>	
+	<body class="bg-black">
+		<button type="button" class="btn btn-primary btn-floating btn-lg " id="btn-back-to-top">
+			<i class="fas fa-arrow-up"></i>
+		  </button>
+		<div class="container-fluid m-0 bg-black">
+			<header class="row ">
+				<a href="./index.html" class="text-decoration-none">
+          			<h1 class="h3 text-center p-4 fst-italic fw-bold text-dark" >Pan Tadeusz czyli ostatni
+                zajazd na Litwie: historia szlachecka z roku 1811 i 1812 we dwunastu
+                księgach wierszem.
+					</h1>
+        		</a>
+			</header>
+			<div class="row main">
+				<div class="col-md-3 fixed-left bg-dark border-end border-5">
+					<nav class="navbar navbar-dark bg-dark">
+						<div class="container-fluid">
+							<p class="text-center fw-bold fs-5 text-white ">
+								Spis treści
+							</p>
+						  <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="true" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						  </button>
+						</div>
+					  </nav>
+					<div class="list-group mb-3 collapse d-md-none" id="navbarToggleExternalContent" >
+						<a class="list-group-item list-group-item-action text-center fs-6  text-nowrap k1 bg-image" href="./k1.html"><div class= "text-white p-5 m-0 fw-bold">Księga 1</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k2" href = "./k2.html"><div class= "text-white p-5 m-0 fw-bold">Księga 2</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k3" href = "./k3.html"><div class= "text-white p-5 m-0 fw-bold">Księga 3</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k4" href = "./k4.html"><div class= "text-white p-5 m-0 fw-bold">Księga 4</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k5" href = "./k5.html"><div class= "text-white p-5 m-0 fw-bold">Księga 5</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k6" href = "./k6.html"><div class= "text-white p-5 m-0 fw-bold">Księga 6</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k7" href = "./k7.html"><div class= "text-white p-5 m-0 fw-bold">Księga 7</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k8" href = "./k8.html"><div class= "text-white p-5 m-0 fw-bold">Księga 8</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k9" href = "./k9.html"><div class= "text-white p-5 m-0 fw-bold">Księga 9</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k10" href = "./k10.html"><div class= "text-white p-5 m-0 fw-bold">Księga 10</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k11" href = "./k11.html"><div class= "text-white p-5 m-0 fw-bold">Księga 11</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k12" href = "./k12.html"><div class= "text-white p-5 m-0 fw-bold">Księga 12</div></a>	
+					</div>
+					<div class="list-group mb-3 d-none d-lg-block d-md-block" >
+						<a class="list-group-item list-group-item-action text-center fs-6  text-nowrap k1 bg-image" href="./k1.html"><div class= "text-white p-5 m-0 fw-bold">Księga 1</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k2" href = "./k2.html"><div class= "text-white p-5 m-0 fw-bold">Księga 2</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k3" href = "./k3.html"><div class= "text-white p-5 m-0 fw-bold">Księga 3</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k4" href = "./k4.html"><div class= "text-white p-5 m-0 fw-bold">Księga 4</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k5" href = "./k5.html"><div class= "text-white p-5 m-0 fw-bold">Księga 5</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k6" href = "./k6.html"><div class= "text-white p-5 m-0 fw-bold">Księga 6</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k7" href = "./k7.html"><div class= "text-white p-5 m-0 fw-bold">Księga 7</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k8" href = "./k8.html"><div class= "text-white p-5 m-0 fw-bold">Księga 8</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k9" href = "./k9.html"><div class= "text-white p-5 m-0 fw-bold">Księga 9</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k10" href = "./k10.html"><div class= "text-white p-5 m-0 fw-bold">Księga 10</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k11" href = "./k11.html"><div class= "text-white p-5 m-0 fw-bold">Księga 11</div></a>
+						<a class="list-group-item list-group-item-action text-center fs-6 text-nowrap k12" href = "./k12.html"><div class= "text-white p-5 m-0 fw-bold">Księga 12</div></a>	
+					</div>
+				</div>
+				<main class="col-md-9 bg-secondary ">
+					<h2 class="text-center pt-3 fw-bold text-white">Pan Tadeusz</h2>
+					<p class="text-center m-5 h3">
+						Poemat epicki Adama Mickiewicza wydany w dwóch tomach w 1834 w Paryżu przez Aleksandra Jełowickiego.
+						Ta epopeja narodowa (z elementami gawędy szlacheckiej) powstała w latach 1832–1834 w Paryżu. Składa się z dwunastu ksiąg pisanych wierszem, trzynastozgłoskowym aleksandrynem polskim. Czas akcji: pięć dni z roku 1811 i jeden dzień z roku 1812.						
+						Epopeja jest stałą pozycją na polskiej liście lektur szkolnych. W 2012 była publicznie odczytywana w akcji społecznej propagującej znajomość literatury polskiej Narodowe Czytanie Pana Tadeusza.
+						Rękopis Pana Tadeusza od 1999 znajduje się w zbiorach Zakładu Narodowego im. Ossolińskich. W 2014 został wpisany na Polską Listę Krajową Programu UNESCO Pamięć Świata.
+					</p>
+					<img class="mx-auto d-block pb-2 img-fluid" src="https://ecsmedia.pl/c/pan-tadeusz-b-iext69338980.jpg" alt="mr ted">
+				</main>
+			</div>
+		</div>
+			<footer class="bg-black text-white mt-0 p-2 text-center fst-italic">PAN TADEUSZ PP2 2022</footer>
+		
+		<script>
+			let mybutton = document.getElementById("btn-back-to-top");
+			
+			window.onscroll = function () {
+			scrollFunction();};
+			function scrollFunction() {
+			if (
+				document.body.scrollTop > 20 ||
+				document.documentElement.scrollTop > 20
+			) {
+				mybutton.style.display = "block";
+			} else {
+				mybutton.style.display = "none";}}
+			mybutton.addEventListener("click",
+			function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		   } );
+		
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>	
 	</body>
 	
 </html>
